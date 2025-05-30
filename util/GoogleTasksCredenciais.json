@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "quickstart-1562546950421",
+    "private_key_id": "add4908d68a2a3e96910564834f5d5b8bd38dd8e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDm7n22o5SGgFA\n1HxcffeNfnOGKHekLmiw8U5hb8YfCEgvR0wkUeKRxF8p4Np/F7xZppZNZad0nLEw\ncKMFm1pqe42AI9l5N8XxcfCZTdR7f3Hawc4KA3HV88JX0EHIWUF3MBybXUQrFwod\n/1TwjFRj+HCnhGOkLZCLBoY81tweE1mhLt0D4BPY5LuEhtWEyVR3T3GhovN9xyiu\n/aqP/LIbJJCU9Cw211MY4fKwiOwM2QDEzMqh4dy/6GnUsMXHmFnfYv1cymS9YsuN\nofk5oNiRGf8AixOwavQQJAoYHOdla17G9KkqF9V3mMci7L5o6k8pp2WRzMCdOvbl\nKx6NnSTRAgMBAAECggEAA2FTBtmDARcy81hYp86Dcx3+yBA19Q/aPkiFNrjUPyAJ\nA0wjnDMQC73NeS9KB001M4Vl7oN1r9WvWCtyHbwwBUwKR28XKHmWwZPa+QM3y0SK\nBqI3ucOSeYSDVLokEN69+13I+MRVU7tLsPYDFT8PjES0SajHggRJjaV4t19tIVXj\nflHerfI+/nfnG3Zt/LqI/Le6yjVyuAj0hymFAIcXVE8GGvNYIzZ4NdBheySldrpk\nmXD9yW5nrqa1K3yA+Ccqr04EvDzeMUNpFFs8oJA1COTjAbna5lMZI9H1CTRXD/6Y\n5EFIhGmBELEUfFY+kLsjwoCdATYs2NxJAJCYuoLgAwKBgQD3TliblphFzp/JUYVP\nHONeM4KBz8X3OynH8NeF7k2jRm9ir81f+NPwXSjPVZtxnxIClMg2lT8STXYBWGt/\njCFiIYftDlxdekr9XAAzqMB30JP+fsrV6qugYhpEGhbi2rpD7LGJ+Q7fAe2dZRsP\nMXEmfm9N+uF++2V+4JeHEEG9PwKBgQDKfB8oCbkRlIV3Ql5xPAoxqJG12ixYRAtz\nBrMpB2J1tKRbrP1pOFZ51tQVj5FzyeyrQ+O/65blyUZBj6vpEJkGVATfpeMjJj+g\nIfaLLXPaOvJNOY9F+4wiiGEPiNhomwtS8i8OFKk8fYwnf/FadDvm20h6o2yK+hNv\n6f5VWJnJ7wKBgHNVknVdUj6cEmDtJ+KxckgodaDcqVKXwPCCHcFUVdjjrGa13m33\nub/LcpDfN9NRgDC7+nOaPwPmJDaUae3eCGOfh6jCncjqk7Z9BYsSFFDMcXiq4SXK\nf6gYmG9SS4IYx+2NoW7bPFg8qfhRgsEfKcnuBTK04h06WSdGzuQqbL45AoGAa4NI\nT8wJ1knULCSzXNCSYReudq6niR5oLeVKz+g54WHPO1Y5H9toHz1wUxpuEtsOrUlY\n7pi7ALvEcB9HGnNTrUaDZ/T/C7TNZ8tgyzmRIDjYWyTK7E/KcrOTRdpVfgWFF7+8\nOG/EBHhtKLQIhQzemY+phmSrx4dNNsk54DsxPUUCgYEAnpATH82W/aWU0WKU7IjO\nRhO8cw8/by1huurMF/q2nvVH/zpojsiNgFK2ojI64LMgQQ2La3vpvYrXKi/REXbc\nDx5+9TRbnKBEU1rbJZ3CGKAsbDVuI8AAA5u0Fv3mkX1bwtowD2zza9o5T9S1RtPj\nbBOXYzBBe198+HphYQyg6As=\n-----END PRIVATE KEY-----\n",
+    "client_email": "rotinas-ventor-investimentos@quickstart-1562546950421.iam.gserviceaccount.com",
+    "client_id": "103678866586132524654",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rotinas-ventor-investimentos%40quickstart-1562546950421.iam.gserviceaccount.com"
+  }
