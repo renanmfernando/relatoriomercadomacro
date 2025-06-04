@@ -27,8 +27,8 @@ with st.container():
         )
         curva_juros_nominal.update_traces(line=dict(color='#4BACC6'))
         curva_juros_nominal.update_layout(
-            xaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
-            yaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+            xaxis=dict(showgrid=True, gridcolor='#lightgray'),
+            yaxis=dict(showgrid=True, gridcolor='#lightgray'),
         )
         st.plotly_chart(curva_juros_nominal)
         
@@ -42,7 +42,7 @@ with st.container():
         )
         curva_juros_real.update_traces(line=dict(color='#A50021'))
         curva_juros_real.update_layout(
-            xaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
-            yaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+            xaxis=dict(showgrid=True, gridcolor='#lightgray'),
+            yaxis=dict(showgrid=True, gridcolor='#lightgray'),
         )
         st.plotly_chart(curva_juros_real)
