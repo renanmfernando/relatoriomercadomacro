@@ -18,8 +18,21 @@ with st.container():
     st.sidebar.image("Logo.png")
     st.sidebar.title("Dados")
     if st.sidebar.checkbox("Curva de Juros Nominal"):
-        curva_juros_nominal = px.line(curva_de_juros_di, x='Data', y='Valor', title='Curva de Juros Nominal')
-        st.plotly_chart(curva_juros_nominal)
+        curva_juros_nominal = px.line(
+            curva_de_juros_di,
+            x='Data',
+            y='Valor',
+            title='Curva de Juros Nominal',
+            markers= True
+            )
+        st.plotly_chart(curva_juros_nominal.update_traces(line=dict(color='#4BACC6')))
+        
     if st.sidebar.checkbox("Curva de Juros Real"):
-        curva_juros_real = px.line(curva_de_juros_dap, x='Data', y='Valor', title='Curva de Juros Real')
-        st.plotly_chart(curva_juros_real)
+        curva_juros_real = px.line(
+            curva_de_juros_dap,
+            x='Data',
+            y='Valor',
+            title='Curva de Juros Real',
+            markers= True
+            )
+        st.plotly_chart(curva_juros_real.update_traces(line=dict(color='#A50021')))
