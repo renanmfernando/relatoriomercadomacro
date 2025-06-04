@@ -23,9 +23,14 @@ with st.container():
             x='Data',
             y='Valor',
             title='Curva de Juros Nominal',
-            markers= True
-            )
-        st.plotly_chart(curva_juros_nominal.update_traces(line=dict(color='#4BACC6')))
+            markers=True
+        )
+        curva_juros_nominal.update_traces(line=dict(color='#4BACC6'))
+        curva_juros_nominal.update_layout(
+            xaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+            yaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+        )
+        st.plotly_chart(curva_juros_nominal)
         
     if st.sidebar.checkbox("Curva de Juros Real"):
         curva_juros_real = px.line(
@@ -33,6 +38,11 @@ with st.container():
             x='Data',
             y='Valor',
             title='Curva de Juros Real',
-            markers= True
-            )
-        st.plotly_chart(curva_juros_real.update_traces(line=dict(color='#A50021')))
+            markers=True
+        )
+        curva_juros_real.update_traces(line=dict(color='#A50021'))
+        curva_juros_real.update_layout(
+            xaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+            yaxis=dict(showgrid=True, gridcolor='#F2F2F2'),
+        )
+        st.plotly_chart(curva_juros_real)
